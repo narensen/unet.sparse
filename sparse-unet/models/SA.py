@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class EnhancedSparseAttention(nn.Module):
+class SparseAttention(nn.Module):
     def __init__(self, in_channels, out_channels, num_heads=8, attention_ratio=0.5, dropout=0.1):
-        super(EnhancedSparseAttention, self).__init__()
+        super(SparseAttention, self).__init__()
         self.in_channels = in_channels
         self.out_channels = out_channels
         self.num_heads = num_heads
