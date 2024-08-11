@@ -35,6 +35,7 @@ The Enhanced Sparse Attention mechanism is a crucial component of the architectu
 ### Preparing the Dataset
 Place your training and validation datasets in the datasets/train and datasets/val directories respectively. The directory structure should look like this:
 
+```
 datasets/
     train/
         class1/
@@ -45,7 +46,7 @@ datasets/
         class2/
         ...
     test/
-    
+  ```  
 ### Results
 The results of the model training and validation will be printed to the console. The final model weights will be saved to the models directory.
 
