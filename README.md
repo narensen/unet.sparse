@@ -1,6 +1,5 @@
 # Sparse-UNet
-
-Sparse-UNet is a cutting-edge image segmentation model that integrates Sparse Attention mechanisms with the U-Net architecture. This hybrid approach aims to improve the efficiency and accuracy of image segmentation tasks by focusing computational resources on the most relevant regions of the image.
+A cutting-edge image segmentation model that integrates Sparse Attention mechanisms with the U-Net architecture. This hybrid approach aims to improve the efficiency and accuracy of image segmentation tasks by focusing computational resources on the most relevant regions of the image.
 
 Sparse-UNet aims to leverage the benefits of Sparse Attention within the U-Net framework to enhance the performance of image segmentation models. The Sparse Attention mechanism helps in focusing on important regions of the image, thus enhancing the segmentation accuracy while reducing computational overhead.
 
