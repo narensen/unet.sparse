@@ -4,7 +4,11 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
-from models import EnhancedSparseAttention
+from SA import EnhancedSparseAttention, SparsityPattern
+import os
+
+if 'TORCH_CUDA_ARCH_LIST' not in os.environ:
+    os.environ['TORCH_CUDA_ARCH_LIST'] = '6.0;6.1;7.0;7.5;8.0;8.6'
 
 class ImageClassifier(nn.Module):
     def __init__(self, num_classes=10):
